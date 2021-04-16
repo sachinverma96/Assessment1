@@ -31,6 +31,7 @@ HTTP Methods
   GET Request=
       contactlist: It will provide all the details in sorting manner by firstName. If found similar name then by lastName.
       contactlist/id: It will provide the data by mentioning the id.
+      orderlist: It will give the records as last in first out.
       
   POST Request=
       Add: It is used to add the records in the table.
