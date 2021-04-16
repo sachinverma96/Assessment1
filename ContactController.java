@@ -37,7 +37,7 @@ public class ContactController {
 	//@getmapping is used to get the details/records from database on web page
 	@GetMapping("/contactlist")
 	public List<Contact> getcontactlist(){
-		return ctrepo.findAll(Sort.by(Sort.Direction.ASC, "firstName"));
+		return ctrepo.findAll(Sort.by(Sort.Direction.ASC, "firstName","lastName"));
 	}
 	@GetMapping("/contactlist/{id}")
 	public Optional<Contact> findcontactbyid(@PathVariable long id){
