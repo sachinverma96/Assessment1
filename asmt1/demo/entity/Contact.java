@@ -28,11 +28,11 @@ public class Contact{
 	private long id;
 	
 	//@column is used to specify the column condition
-	@Column( unique = true)
+	//@Column( unique = true)
 	private String firstName;	
 	
 	private String lastName;
-	@Column(unique = true)
+	//@Column(unique = true)
 	private long contactNo;
 	private String mailId;
 	
